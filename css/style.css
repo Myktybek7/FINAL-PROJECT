@@ -1,0 +1,750 @@
+
+
+@media(min-width: 768px){
+    html{
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to top, rgb(113, 46, 223), white);
+    }
+    body{
+        background-color: white;
+        width: 1600px;
+        height: 800px;
+        display: block;
+        margin: 70px auto;
+        border-radius: 30px;
+    }
+    .intro{
+        color: black;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        padding-left: 350px;
+        padding-top: 150px;
+    }
+    .description{
+        color: black;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        padding-left: 355px;
+    }
+    .description2{
+        color: black;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        padding-left: 355px;
+    }
+    th:hover, a:hover{
+        color: rgb(113, 46, 223);
+    }
+    th, a{
+        color: black;
+    }
+    .homepagecontainer{
+        display: inline-block;
+        vertical-align: middle;
+        
+    }
+    .name, .menulist{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .mainphoto{
+        padding-top: 100px;
+        padding-left: 60px;
+        width: 40%;
+        height: 40%;
+        border-radius: 60%; 
+    }
+    .about-now{
+        color: blue;
+    }
+
+    h1{
+        color: black;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+    }
+    .descrip{
+        color: black;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        margin-left: 700px;
+        margin-top: 150px;
+    }
+    .aboutMe{
+        color: black;
+        font-family: "Rubik", sans-serif;
+        text-align: center;
+        position: relative;
+        bottom: 20px;
+    }
+    .aboutPhoto{
+        width: 300px;
+        border-radius: 10%;
+        position: relative;
+        right: auto;
+        left: 250px;
+        bottom: 280px;
+    }
+    .resumePhoto{
+        width: 1000px;
+        display: block;
+        margin: auto;
+        position: relative;
+        bottom: 80px;
+    }
+    ul{
+        margin-left: 100px;
+    }
+    .NY{
+        width: 250px;
+        margin-left: 60px;
+        border-radius: 10%;
+    }
+    .ortotokoi{
+        width: 250px;
+        margin-left: 120px;
+        border-radius: 10%;
+    }
+    .horse{
+        width: 250px;
+        margin-left: 120px;
+        margin-top: 80px;
+        border-radius: 10%;
+    }
+    .kanion{
+        width: 250px;
+        margin-left: 180px;
+        border-radius: 10%;
+    }
+    .social {
+        list-style: none;
+        padding: 0;
+        margin: 100px;
+        margin-left: 400px;
+      }
+      
+      .social li {
+        margin-bottom: 10px; /* Adjust spacing between items */
+      }
+      
+      .social h1 {
+        margin: 0;
+      }
+      
+    .navbar {
+        display: flex;
+        background-color: white;
+        color: black;
+        margin-left: 750px;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 20px;
+      }  
+      .nav-item {
+        text-decoration: none;
+        color: inherit;
+        padding: 50px 10px;
+      }
+      
+      .nav-item:not(:last-child) {
+        margin-right: 30px;
+    }
+      
+    .container {
+        display: flex;
+      }
+      
+      .experience,
+      .skills,
+      .education,
+      .interests {
+        flex: 1; /* Each section takes up equal space */
+        display: flex; /* Display the sections horizontally */
+        flex-direction: column; /* Arrange items within each section vertically */
+        margin-top: 80px;
+    }
+      
+      .text-experience,
+      .text-skills,
+      .text-education,
+      .text-interests {
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 40px;
+        margin-bottom: 10px;
+        margin-left: 45px;
+      }
+      
+      ul {
+        list-style: none;
+        padding-left: 100;
+        margin: 0; /* Remove default margin */
+      }
+      
+      h1,
+      h2 {
+        margin: 0;
+    }
+      
+      /* Adjust spacing between sections */
+      .experience { margin-right: 20px; }
+      .skills { margin-right: 20px; }
+      .education { margin-right: 20px; }
+      
+    * h2 {
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+    }
+
+    .list-proj ul {
+        padding: 9px;
+        margin: 20px;
+        margin-left: 200px;
+      }
+      
+      .list-proj li {
+        list-style: none;
+      }
+      
+      .list-proj h1 {
+        margin: 10px;
+      }
+    
+      
+}
+
+@media(max-width: 768px) {
+    html {
+        width: 100%;
+        height: 2000px;
+        background-image: linear-gradient(to top, rgb(113, 46, 223), white);
+    }
+    body {
+        background-color: white;
+        width: 350px;
+        height: 1800px;
+        display: block;
+        margin: 70px auto;
+        border-radius: 30px;
+    }
+    .intro, .description, .description2 {
+        color: black;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        text-align: center;
+    }
+    .intro {
+        padding-top: 20px;
+    }
+    .description, .description2 {
+        padding-left: 20px;
+    }
+    th:hover, a:hover {
+        color: rgb(113, 46, 223);
+    }
+    th, a {
+        color: black;
+    }
+    .homepagecontainer {
+        display: block;
+        text-align: center;
+    }
+    .name, .menulist {
+        display: block;
+    }
+    .mainphoto {
+        padding-top: 20px;
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+    .about-now {
+        color: blue;
+    }
+    h1 {
+        color: black;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        text-align: center;
+    }
+    .descrip {
+        color: black;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .aboutMe {
+        color: black;
+        font-family: "Rubik", sans-serif;
+        text-align: center;
+        position: relative;
+        bottom: 20px;
+    }
+    .aboutPhoto {
+        width: 200px;
+        border-radius: 10%;
+        margin: 0 auto;
+    }
+    .resumePhoto {
+        width: 80%;
+        display: block;
+        margin: auto;
+        position: relative;
+        bottom: 80px;
+    }
+    ul {
+        margin-left: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .NY, .ortotokoi, .horse, .kanion {
+        width: 80%;
+        border-radius: 10%;
+        margin: 20px auto;
+    }
+    .social {
+        list-style: none;
+        padding: 0;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .social li {
+        margin-bottom: 10px; /* Adjust spacing between items */
+    }
+    .social h1 {
+        margin: 0;
+    }
+    .navbar {
+        display: flex;
+        background-color: white;
+        color: black;
+        justify-content: center;
+        margin: 20px auto;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 10px;
+    }  
+    .nav-item {
+        text-decoration: none;
+        color: inherit;
+        padding: 10px;
+    }
+    .nav-item:not(:last-child) {
+        margin-right: 10px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+    }
+    .experience, .skills, .education, .interests {
+        flex: 1; /* Each section takes up equal space */
+        display: flex; /* Display the sections horizontally */
+        flex-direction: column; /* Arrange items within each section vertically */
+        margin-top: 20px;
+    }
+    .text-experience, .text-skills, .text-education, .text-interests {
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .list-proj ul {
+        padding: 9px;
+        margin: 20px auto;
+        text-align: center;
+        font-size: 12px;
+        margin-top: 100px;
+    }
+    .list-proj h1 {
+        margin: 10px;
+        text-align: center;
+    }
+    
+    .body-about {
+        height: 800px;
+    }
+
+    .html-about {
+        height: 900px;
+    }
+
+    .body-gallery {
+        height: 1500px;
+    }
+    .body-contact {
+        height: 600px;
+    }
+    .body-works {
+        height: 800px;
+    }
+    .body-home{
+        height: 700px;
+    }
+    .html-contact {
+        height: 800px;
+    }
+    .html-gallery {
+        height: 1600px;
+    }
+    .html-works {
+        height: 900px;
+    }
+    .html-home {
+        height: 800px;
+    }
+    .mainphoto {
+        width: 120px;
+    }
+}
+
+@media(min-width: 769px) and (max-width: 1024px) {
+    html {
+        width: 100%;
+        height: auto;
+        background-image: linear-gradient(to top, rgb(113, 46, 223), white);
+    }
+    body {
+        background-color: white;
+        width: 768px;
+        height: auto;
+        display: block;
+        margin: 70px auto;
+        border-radius: 30px;
+    }
+    .intro, .description, .description2 {
+        color: black;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        text-align: center;
+    }
+    .intro {
+        padding-top: 20px;
+    }
+    .description, .description2 {
+        padding-left: 20px;
+    }
+    th:hover, a:hover {
+        color: rgb(113, 46, 223);
+    }
+    th, a {
+        color: black;
+    }
+    .homepagecontainer {
+        display: block;
+        text-align: center;
+    }
+    .name, .menulist {
+        display: block;
+    }
+    .mainphoto {
+        padding-top: 20px;
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 90%;
+    }
+    .about-now {
+        color: blue;
+    }
+    h1 {
+        color: black;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        text-align: center;
+    }
+    .descrip {
+        color: black;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .aboutMe {
+        color: black;
+        font-family: "Rubik", sans-serif;
+        text-align: center;
+        position: relative;
+        bottom: 20px;
+    }
+    .aboutPhoto {
+        width: 200px;
+        border-radius: 10%;
+        margin: 0 auto;
+    }
+    .resumePhoto {
+        width: 80%;
+        display: block;
+        margin: auto;
+        position: relative;
+        bottom: 80px;
+    }
+    ul {
+        margin-left: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .NY, .ortotokoi, .horse, .kanion {
+        width: 80%;
+        border-radius: 10%;
+        margin: 20px auto;
+    }
+    .social {
+        list-style: none;
+        padding: 0;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .social li {
+        margin-bottom: 10px; /* Adjust spacing between items */
+    }
+    .social h1 {
+        margin: 0;
+    }
+    .navbar {
+        display: flex;
+        background-color: white;
+        color: black;
+        justify-content: center;
+        margin: 20px auto;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 16px;
+    }  
+    .nav-item {
+        text-decoration: none;
+        color: inherit;
+        padding: 10px;
+    }
+    .nav-item:not(:last-child) {
+        margin-right: 10px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+    }
+    .experience, .skills, .education, .interests {
+        flex: 1; /* Each section takes up equal space */
+        display: flex; /* Display the sections horizontally */
+        flex-direction: column; /* Arrange items within each section vertically */
+        margin-top: 20px;
+    }
+    .text-experience, .text-skills, .text-education, .text-interests {
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .list-proj ul {
+        padding: 9px;
+        margin: 20px auto;
+        text-align: center;
+        font-size: 12px;
+        margin-top: 100px;
+    }
+    .list-proj h1 {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .body-about {
+        height: 800px;
+    }
+
+    .html-about {
+        height: 900px;
+    }
+
+    .body-gallery {
+        height: 3700px;
+    }
+    .body-contact {
+        height: 600px;
+    }
+    .body-works {
+        height: 800px;
+    }
+    .body-home{
+        height: 700px;
+    }
+    .html-contact {
+        height: 800px;
+    }
+    .html-gallery {
+        height: 4000px;
+    }
+    .html-works {
+        height: 900px;
+    }
+    .html-home {
+        height: 800px;
+    }
+    .mainphoto {
+        width: 120px;
+    }
+}
+
+@media(min-width: 1025px) and (max-width: 1440px) {
+    html {
+        width: 100%;
+        height: auto;
+        background-image: linear-gradient(to top, rgb(113, 46, 223), white);
+    }
+    body {
+        background-color: white;
+        width: 1024px;
+        height: auto;
+        display: block;
+        margin: 70px auto;
+        border-radius: 30px;
+    }
+    .intro, .description, .description2 {
+        color: black;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        text-align: center;
+    }
+    .intro {
+        padding-top: 20px;
+    }
+    .description, .description2 {
+        padding-left: 20px;
+    }
+    th:hover, a:hover {
+        color: rgb(113, 46, 223);
+    }
+    th, a {
+        color: black;
+    }
+    .homepagecontainer {
+        display: block;
+        text-align: center;
+    }
+    .name, .menulist {
+        display: block;
+    }
+    .mainphoto {
+        padding-top: 20px;
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+    .about-now {
+        color: blue;
+    }
+    h1 {
+        color: black;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        text-align: center;
+    }
+    .descrip {
+        color: black;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .aboutMe {
+        color: black;
+        font-family: "Rubik", sans-serif;
+        text-align: center;
+        position: relative;
+        bottom: 20px;
+    }
+    .aboutPhoto {
+        width: 200px;
+        border-radius: 10%;
+        margin: 0 auto;
+    }
+    .resumePhoto {
+        width: 80%;
+        display: block;
+        margin: auto;
+        position: relative;
+        bottom: 80px;
+    }
+    ul {
+        margin-left: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .NY, .ortotokoi, .horse, .kanion {
+        width: 80%;
+        border-radius: 10%;
+        margin: 20px auto;
+    }
+    .social {
+        list-style: none;
+        padding: 0;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .social li {
+        margin-bottom: 10px;
+    }
+    .social h1 {
+        margin: 0;
+    }
+    .navbar {
+        display: flex;
+        background-color: white;
+        color: black;
+        justify-content: center;
+        margin: 20px auto;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 16px;
+    }  
+    .nav-item {
+        text-decoration: none;
+        color: inherit;
+        padding: 10px;
+    }
+    .nav-item:not(:last-child) {
+        margin-right: 10px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+    }
+    .experience, .skills, .education, .interests {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .text-experience, .text-skills, .text-education, .text-interests {
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 24px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .list-proj ul {
+        padding: 9px;
+        margin: 20px auto;
+        text-align: center;
+        font-size: 12px;
+        margin-top: 100px;
+    }
+    .list-proj h1 {
+        margin: 10px;
+        text-align: center;
+    }
+}
+

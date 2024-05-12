@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" class="html-home">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="css\style.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <style>
+        @media screen and (max-width: 768px) {
+            .homepagecontainer {
+                width: 90%;
+                margin: 0 auto;
+            }
+            .menulist {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .menulist th {
+                margin: 5px;
+            }
+            .welcometext {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .mainphoto {
+                width: 100%;
+                max-width: 300px; 
+                margin-top: 20px; 
+            }
+            body{
+                width: 90%;
+                margin: 0 auto;
+            }
+            .menulist{
+                margin: auto;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body class="body-home">
+
+    <div class="navbar">
+        <a href="" class="nav-item">Home</a>
+        <a href="about.html" class="nav-item">About</a>
+        <a href="resume.html" class="nav-item">Resume</a>
+        <a href="works.html" class="nav-item">Works</a>
+        <a href="gallery.html" class="nav-item">Gallery</a>
+        <a href="contact.html" class="nav-item">Contact</a>
+    </div>
+      
+
+    <div class="homepagecontainer">
+        <table class="welcometext">
+            <tr>
+                <td><h1 class="intro">Hi, I am Myktybek</h1></td>
+                <td rowspan="3"><img class="mainphoto" src="img/photo_5467481978010982573_y.jpg" alt="photo"></td>
+            </tr>
+            <tr>
+                <td><h3 class="description">Future Full-Stack developer</h3></td>
+            </tr>
+            <tr>
+                <td><h4 class="description2">Welcome to my homepage, where <br>you can plunge into my world of <br>creativity and see my portfolio <br> of works</br></br></br></h4></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="js\script.js"></script>
+</body>
+</html>
